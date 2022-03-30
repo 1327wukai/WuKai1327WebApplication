@@ -27,7 +27,6 @@ namespace WuKai1327WebApplication
             lstMonth.Items.Add("october"); 
             lstMonth.Items.Add("November"); 
             lstMonth.Items.Add("December");
-
         }
     }
 }
