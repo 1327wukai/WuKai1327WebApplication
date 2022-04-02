@@ -68,12 +68,29 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
+    <Content Include="lecture2\Button.aspx" />
+    <Content Include="lecture2\HtmlGenericControl.aspx" />
+    <Content Include="lecture2\ms.png" />
     <Content Include="MonthsWebForm.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="lecture2\Button.aspx.cs">
+      <DependentUpon>Button.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="lecture2\Button.aspx.designer.cs">
+      <DependentUpon>Button.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="lecture2\HtmlGenericControl.aspx.cs">
+      <DependentUpon>HtmlGenericControl.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="lecture2\HtmlGenericControl.aspx.designer.cs">
+      <DependentUpon>HtmlGenericControl.aspx</DependentUpon>
     </Compile>
     <Compile Include="MonthsWebForm.aspx.cs">
       <DependentUpon>MonthsWebForm.aspx</DependentUpon>
