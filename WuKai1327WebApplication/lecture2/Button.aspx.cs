@@ -11,7 +11,7 @@ namespace WuKai1327WebApplication.lecture2
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+             
         }
 
         protected void ButtonEx_Click(object sender, EventArgs e)
